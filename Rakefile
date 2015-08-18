@@ -1,3 +1,3 @@
-require "./async_handler"
+require "./async_task"
 require "resque/tasks"
 
