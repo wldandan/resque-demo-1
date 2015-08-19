@@ -4,9 +4,9 @@ class AsyncTask
 
   def self.perform(service)
   	
-    sleep 3 # fake analysis here
+    sleep 5 # fake analysis here
 
-    puts "Finished communicate with service #{service}"
+    puts "Finished talking with '#{service}-service'"
   end
 
 end
